@@ -30,10 +30,14 @@ function myfunc() {
         return;
       }
     }
-    document.getElementById("output1").innerHTML = "Объединение множеств: " + objedienie((document.getElementById("mass1").value).split(" "), (document.getElementById("mass2").value).split(" "));
-    document.getElementById("output2").innerHTML = "Пересечение множеств: " + peresechenie((document.getElementById("mass1").value).split(" "), (document.getElementById("mass2").value).split(" "));
-    document.getElementById("output3").innerHTML = "Дополнение второго множества до первого: " + dopolnenie((document.getElementById("mass1").value).split(" "), (document.getElementById("mass2").value).split(" "));
-    document.getElementById("output4").innerHTML = "Симметрическая разность множеств: " + simmrazn((document.getElementById("mass1").value).split(" "), (document.getElementById("mass2").value).split(" "));
+    document.getElementById("output1").innerHTML = "Объединение множеств: " +
+                                                    objedienie((document.getElementById("mass1").value).split(" "), (document.getElementById("mass2").value).split(" "));
+    document.getElementById("output2").innerHTML = "Пересечение множеств: " +
+                                                    peresechenie((document.getElementById("mass1").value).split(" "), (document.getElementById("mass2").value).split(" "));
+    document.getElementById("output3").innerHTML = "Дополнение второго множества до первого: " +
+                                                    dopolnenie((document.getElementById("mass1").value).split(" "), (document.getElementById("mass2").value).split(" "));
+    document.getElementById("output4").innerHTML = "Симметрическая разность множеств: " +
+                                                    simmrazn((document.getElementById("mass1").value).split(" "), (document.getElementById("mass2").value).split(" "));
   }
   function objedienie(mass1, mass2) {
     let final = "";
