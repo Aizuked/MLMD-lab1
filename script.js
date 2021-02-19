@@ -1,8 +1,8 @@
 function myfunc() {
-    let langcheck = /[a-zA-Z]/;
-    chetcheck = /[02468]/;
-    nechetcheck = /[13579]/;
-    digitcheck = /[1-9]/;
+    const langcheck = /[a-zA-Z]/;
+    const chetcheck = /[02468]/;
+    const nechetcheck = /[13579]/;
+    const digitcheck = /[1-9]/;
     let mas1 = (document.getElementById("mass1").value).split(" ");
     let mas2 = (document.getElementById("mass2").value).split(" ");
     let checker = 0;
