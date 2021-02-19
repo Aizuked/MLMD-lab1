@@ -12,9 +12,7 @@ function myfunc() {
       if (digitcheck.test(mas1[i][1])) checker++;
       if (chetcheck.test(mas1[i][2])) checker++;
       if (langcheck.test(mas1[i][3])) checker++;
-      if (checker == 5) {
-        checker = 0;
-      }
+      if (checker == 5) checker = 0;
       else {
         alert("Неверный ввод!");
         return;
