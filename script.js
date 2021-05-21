@@ -1,4 +1,4 @@
-function myfunc() {
+  function myfunc() {
     const langcheck = /[a-zA-Z]/;
     const chetcheck = /[02468]/;
     const nechetcheck = /[13579]/;
@@ -88,8 +88,8 @@ function myfunc() {
     for (let i = 0; i < mass1.length; i++) {
       if (mass1[i] != null) final += mass1[i] + ' ';
     }
-    for (let j = 0; j < mass2.length; j++) {
-      if (mass1[j] != null) final += mass2[j] + ' ';
+    for (let i = 0; i < mass2.length; i++) {
+      if (mass2[i] != null) final += mass2[i] + ' ';
     }
     return final;
   }
